@@ -88,6 +88,7 @@ b {
 .button4{background-color:#3499CD;border:2px solid #3499CD}
 .button5{background-color:#40e0d0;border:2px solid #40e0d0}
 .button6{background-color:#ffb347;border:2px solid #ffb347}
+.button7{background-color:#FF007F;border:2px solid #FF007F}
 
 </style>
 </head>
@@ -110,7 +111,7 @@ b {
           <a href="Schreiber__Jacob_CV.pdf" target="_blank">CV</a> |
           <a href="#publications">PUBLICATIONS</a> | 
           <a href="#talks">TALKS</a> | 
-          <a href="#employment">EMPLOYMENT</a> | 
+          <a href="#crookshanks">CROOKSHANKS</a> | 
           <a href="palleros.html" target="_blank">DR. PALLEROS</a> | 
 
           <a href="http://github.com/jmschrei" target="_blank"><img src="logos/Octocat.png" style="height:30px"></a> 
@@ -122,20 +123,21 @@ b {
         <span>
           <br>
           &emsp;&emsp;
-          jmschr < at > cs < dot > washington < dot > edu
+          jmschr < at > stanford < dot > edu
         </span>
 
       </p>
       <hr>
 
       <br><br>
-      <p style="font-size:16px">I am a post-doc and IGERT big data fellow in the Genome Science department at the University of Washington. Previously, I was a graduate student in the Computer Science and Engineering Department. My research focus is on the application of machine learning methods, primarily deep learning ones, to the massive amount of data being generated in the field of genome science. My research projects have involved predicting the three dimensional structure of the genome using convolutional neural networks and learning a latent representation of the human epigenome using deep tensor factorization. These projects typically involve hundreds of millions to billions of samples, making them markedly "big data" problems. I routinely contribute to the Python open source community as the core developer of pomegranate, a package for flexible probabilistic modeling, apricot, a package for data summarization for machine learning, and in the past as a core developer for the scikit-learn project. Future projects include one day being able to go outside again.  </p>
+      <p style="font-size:16px">I am a post-doc at Stanford University, studying regulatory genomics using large-scale machine learning methods with Anshul Kundaje. Previously, I was a graduate student at the University of Washington with Bill Noble. My research focus is to organize the massive amount of available genomics data into useful tools and meaningful discoveries. To this end, I have developed Ledidi, a method for editing biosequences to exhibit desired characteristics, Avocado, a deep tensor factorization approach for jointly modeling thousands of genome-wide regulatory experiments and imputing those that have not yet been performed, and a method that uses submodular optimization to guide future experimental efforts. These projects sometimes involve machine learning methods that are not mainstream, and so I routinely contribute to the Python open source community in the form of packages that implement general purpose versions of the algorithms that I apply to genomics. As such, I am the core developer of pomegranate, a package for flexible probabilistic modeling, apricot, a package for data summarization for machine learning, and in the past was a core developer for the scikit-learn project. Future projects include one day being able to go outside again.  </p>
 
       <p style="font-size:12px">
-        Machine Learning | Submodular Optimization | Big Data | Open Source Software | Computational Biology | Functional Genomics | Epigenomics
+        Machine Learning | Submodular Optimization | Open Source Software | Big Data | Pitfalls | Computational Biology | Functional Genomics | Epigenomics
       </p>
 
       <p>
+        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/ledidi/"           class="projbutton button7" target="_blank"> Ledidi </a>
         <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/apricot/"          class="projbutton button6" target="_blank"> apricot </a>
         <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/pomegranate"       class="projbutton button1" target="_blank"> pomegranate </a>
         <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/avocado/"          class="projbutton button2" target="_blank"> Avocado </a>
@@ -146,10 +148,11 @@ b {
 
       <hr>
       <p>
-        <iframe width="250" height="170" src="https://www.youtube.com/embed/WzhHVYsUGtM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="250" height="170" src="https://www.youtube.com/embed/kZPXbZT5stI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
-        <iframe width="250" height="170" src="https://www.youtube.com/embed/kw7Jb_Pfn4g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <iframe width="250" height="170" src="https://www.youtube.com/embed/SCFsftX1RJs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="325" height="221" src="https://www.youtube.com/embed/WzhHVYsUGtM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="325" height="221" src="https://www.youtube.com/embed/kZPXbZT5stI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+        <iframe width="325" height="221" src="https://www.youtube.com/embed/az1AHQMHiHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="325" height="221" src="https://www.youtube.com/embed/SCFsftX1RJs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="325" height="221" src="https://www.youtube.com/embed/tVXaTT3XbI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </p>
 
     </div>
@@ -159,10 +162,66 @@ b {
         <h2 style="font-size:26px"><b>Selected Publications</b></h2>
 
         <p style="font-size:14px">
-          apricot: Submodular selection for data summarization in Python, <i>arXiv</i>, 2019 <br>
+          Ledidi: Designing genomic edits that induce functional activity, <i>ICML Workshop on Computational Biology</i>, 2020<br>
+          <span style="font-size:12px"><b>J. Schreiber</b>, Y. Y. Lu, and W.S. Noble</span> <br>
+          <span style="font-size:12px">
+            [<a href="https://www.biorxiv.org/content/10.1101/2020.05.21.109686v1" target="_blank">paper</a>]
+            [<a href="https://icml-compbio.github.io/2020/posters/WCBICML2020_poster_23.pdf" target="_blank">poster</a>]
+          </span>
+        </p>
+
+
+        <p style="font-size:14px">
+          Zero-shot imputations across species are enabled through joint modeling of human and mouse epigenomics, <i>Proceedings of the 11th ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics</i>, 2020 <b>(Best Paper)</b> <br>
+          <span style="font-size:12px"><b>J. Schreiber</b>, D. Hegde, and W.S. Noble</span> <br>
+          <span style="font-size:12px">
+            [<a href="https://dl.acm.org/doi/10.1145/3388440.3412412" target="_blank">paper</a>]
+          </span>
+        </p>
+
+        <p style="font-size:14px">
+          A pitfall for machine learning methods aiming to predict across cell types, <i>Genome Biology</i>, 2020 <br>
+          <span style="font-size:12px"><b>J. Schreiber</b>, R. Singh, J. Bilmes, and W.S. Noble</span> <br>
+          <span style="font-size:12px">
+            [<a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02177-y" target="_blank">paper</a>]
+          </span>
+        </p>
+
+        <p style="font-size:14px">
+          Prioritizing transcriptomic and epigenomic experiments by using an optimization strategy that leverages imputed data, <i>Bioinformatics</i>, 2020 <br>
+          <span style="font-size:12px"><b>J. Schreiber</b>, J. Bilmes, and W.S. Noble</span> <br>
+          <span style="font-size:12px">
+            [<a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa830/5910545" target="_blank">paper</a>]
+            [<a href="https://www.github.com/jmschrei/kiwano" target="_blank">code</a>]
+          </span>
+        </p>
+
+        <p style="font-size:14px">
+          apricot: Submodular selection for data summarization in Python, <i>Journal of Machine Learning Research</i>, 2020 <br>
           <span style="font-size:12px"><b>J. Schreiber</b>, J. Bilmes, and W.S. Noble</span><br>
           <span style="font-size:12px">
-            [<a href="https://arxiv.org/abs/1906.03543" target="_blank">paper</a>]
+            [<a href="https://jmlr.org/papers/v21/19-467.html" target="_blank">paper</a>]
+          </span>
+        </p>
+
+        <p style="font-size:14px">
+          Completing the ENCODE3 compendium yields accurate imputations across a variety of assays and human biosamples <i>Genome Biology</i>, 2020 <br>
+          <span style="font-size:12px"><b>J. Schreiber</b>, J. Bilmes, and W.S. Noble</span> <br>
+          <span style="font-size:12px">
+            [<a href="https://www.bhttps://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-01978-5" target="_blank">paper</a>]
+            [<a href="https://www.github.com/jmschrei/avocado" target="_blank">code</a>]
+          </span>
+        </p>
+        
+        <p style="font-size:14px">
+          Multi-scale Deep Tensor Factorization Learns a Latent Representation of the Human Epigenome, <i>Genome Biology</i>, 2020 <br>
+          <span style="font-size:12px"><b>J. Schreiber</b>, T. Durham, J. Bilmes, and W.S. Noble</span> <br>
+          <span style="font-size:12px">
+            [<a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-01977-6" target="_blank">paper</a>]
+            [<a href="https://www.github.com/jmschrei/avocado" target="_blank">code</a>]
+            [<a href="https://www.youtube.com/watch?v=kw7Jb_Pfn4g" target="_blank">talk</a>]
+            [<a href="https://noble.gs.washington.edu/proj/avocado/Avocado_ISCB_2018_NoAnimation.pdf" target="_blank">slides</a>]
+            [<a href="https://github.com/jmschrei/avocado/blob/master/Avocado%20Training%20Demo.ipynb" target="_blank">tutorial</a>]
           </span>
         </p>
 
@@ -174,44 +233,6 @@ b {
           </span>
         </p>
 
-
-        <p style="font-size:14px">
-          Completing the ENCODE3 compendium yields accurate imputations across a variety of assays and human biosamples <i>bioRxiv</i>, 2019 <br>
-          <span style="font-size:12px"><b>J. Schreiber</b>, J. Bilmes, and W.S. Noble</span> <br>
-          <span style="font-size:12px">
-            [<a href="https://www.biorxiv.org/content/biorxiv/early/2019/01/29/533273.full.pdf" target="_blank">paper</a>]
-            [<a href="https://www.github.com/jmschrei/avocado" target="_blank">code</a>]
-          </span>
-        </p>
-
-        <p style="font-size:14px">
-          A pitfall for machine learning methods aiming to predict across cell types, <i>bioRxiv</i>, 2019 <br>
-          <span style="font-size:12px"><b>J. Schreiber</b>, R. Singh, J. Bilmes, and W.S. Noble</span> <br>
-          <span style="font-size:12px">
-            [<a href="https://www.biorxiv.org/content/biorxiv/early/2019/01/04/512434" target="_blank">paper</a>]
-          </span>
-
-        </p>
-        
-        <p style="font-size:14px">
-          Massively parallel profiling and predictive modeling of the outcomes of CRISPR/Cas9-mediated double-strand break repair, <i>Nucleic Acids Research</i>, 2019 </a><br>
-          <span style="font-size:12px">W. Chen, A. McKenna, <b>J. Schreiber</b>, Y. Yin, V. Agarwal, W.S. Noble, and J. Shendure</span> <br>
-          <span style="font-size:12px">
-            [<a href="https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz487/5511473 target="_blank">paper</a>]
-          </span>
-        </p>
-        
-        <p style="font-size:14px">
-          Multi-scale Deep Tensor Factorization Learns a Latent Representation of the Human Epigenome, <i>bioRxiv</i>, 2019 <br>
-          <span style="font-size:12px"><b>J. Schreiber</b>, T. Durham, J. Bilmes, and W.S. Noble</span> <br>
-          <span style="font-size:12px">
-            [<a href="https://www.biorxiv.org/content/early/2018/07/08/364976" target="_blank">paper</a>]
-            [<a href="https://www.github.com/jmschrei/avocado" target="_blank">code</a>]
-            [<a href="https://www.youtube.com/watch?v=kw7Jb_Pfn4g" target="_blank">talk</a>]
-            [<a href="https://noble.gs.washington.edu/proj/avocado/Avocado_ISCB_2018_NoAnimation.pdf" target="_blank">slides</a>]
-            [<a href="https://github.com/jmschrei/avocado/blob/master/Avocado%20Training%20Demo.ipynb" target="_blank">tutorial</a>]
-          </span>
-        </p>
         
         <p style="font-size:14px">
           pomegranate: Fast and Flexible Probabilistic Modeling in Python, <i>Journal of Machine Learning Research</i> 2017 <br>
@@ -236,26 +257,6 @@ b {
         </p>
 
         <p style="font-size:14px">
-          Nucleotide sequence and DNaseI sensitivity are predictive of 3D chromatin architecture, <i>bioRxiv</i>, 2017 <br>
-          <span style="font-size:12px"><b>J. Schreiber</b>, M. Libbrecht, J. Bilmes, and W.S. Noble</span> <br>
-          <span style="font-size:12px">
-            [<a href="https://www.biorxiv.org/content/10.1101/103614v5" target="_blank">paper</a>]
-            [<a href="https://www.github.com/jmschrei/rambutan" target="_blank">code</a>]
-            [<a href="https://www.youtube.com/watch?v=SCFsftX1RJs" target="_blank">talk</a>]
-          </span>
-        </p>
-
-        <p style="font-size:14px">
-          Segmentation of Noisy Signals Generated by a Nanopore, <i>bioRxiv</i>, 2015 <br>
-          <span style="font-size:12px"><b>J. Schreiber</b> and K. Karplus</span> <br>
-          <span style="font-size:12px">
-            [<a href="http://biorxiv.org/content/early/2015/01/23/014258" target="_blank">paper</a>]
-            [<a href="https://github.com/jmschrei/PyPore" target="_blank">code</a>]
-            [<a href="https://github.com/jmschrei/PyPore/blob/master/examples/PyPore%20Tutorial.ipynb" target="_blank">tutorial</a>]
-          </span>
-        </p>
-
-        <p style="font-size:14px">
           Analysis of Nanopore Data Using Hidden Markov Models, <i>Bioinformatics</i>, 2015 <br>
           <span style="font-size:12px"><b>J. Schreiber</b> and K. Karplus</span> <br>
           <span style="font-size:12px">
@@ -272,14 +273,6 @@ b {
             [<a href="http://pubs.acs.org/doi/abs/10.1021/nn5049987" target="_blank">paper</a>]
           </span>
         </p>
-
-        <p style="font-size:14px">
-          Nanopores Discriminate Among Five C5 Cytosine Variants in DNA, <i>Journal of the American Chemical Sociey</i>, 2014 <br>
-          <span style="font-size:12px">Z. L. Wescoe, <b>J. Schreiber</b>, M. Akeson </span> <br>
-          <span style="font-size:12px">
-            [<a href="http://pubs.acs.org/doi/abs/10.1021/ja508527b" target="_blank">paper</a>]
-          </span>
-        </p> 
 
         <p style="font-size:14px">
           Error rates for nanopore discrimination among cytosine, methylcytosine, and hydroxymethylcytosine along individual DNA strands, <i>Proceedings of the National Academy of Science</i>, 2013 <br>
@@ -334,67 +327,31 @@ b {
       </div>
     </div></a>
 
-    <a name="employment"><div class="jumbotron"><a></a>
+    <a name="crookshanks"><div class="jumbotron"><a></a>
       <div class="page-header">
-        <h2 style="font-size:26px"><b>Employment</b></h2>
 
-        <h2 style="font-size:20px"><b>Research Intern</b></h2>
-        <h2 style="font-size:14px">
-          Tesla Motors Inc. <br>
-          June 2017-September 2017 (3 months)
-        </h2>
-        <p style="font-size:16px">
-          This internship focused on exploring new ways that machine learning can improve Tesla AutoPilot, and involved processing terabytes of fleet data, doing exploratory data analysis, and building working machine learning prototypes.
-        </p>
+        <a href="crooks/crooks1.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks1.jpg"></a>
+        <a href="crooks/crooks2.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks2.jpg"></a>
+        <a href="crooks/crooks3.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks3.jpg"></a>
+        <a href="crooks/crooks4.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks4.jpg"></a>
+        <a href="crooks/crooks5.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks5.jpg"></a>
+        <a href="crooks/crooks6.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks6.jpg"></a>
+        <a href="crooks/crooks7.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks7.jpg"></a>
+        <a href="crooks/crooks8.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks8.jpg"></a>
+        <a href="crooks/crooks9.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks9.jpg"></a>
+        <a href="crooks/crooks10.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks10.jpg"></a>
+        <a href="crooks/crooks11.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks11.jpg"></a>
+        <a href="crooks/crooks12.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks12.jpg"></a>
+        <a href="crooks/crooks13.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks13.jpg"></a>
+        <a href="crooks/crooks14.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks14.jpg"></a>
+        <a href="crooks/crooks15.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks15.jpg"></a>
+        <a href="crooks/crooks16.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks16.jpg"></a>
+        <a href="crooks/crooks17.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks17.jpg"></a>
+        <a href="crooks/crooks18.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks18.jpg"></a>
+        <a href="crooks/crooks19.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks19.jpg"></a>
+        <a href="crooks/crooks20.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks20.jpg"></a>
+        <a href="crooks/crooks21.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks21.jpg"></a>
 
-        <h2 style="font-size:20px"><b>Research Intern</b></h2>
-        <h2 style="font-size:14px">
-          Aspen Technology <br>
-          June 2016-September 2016 (3 months)
-        </h2>
-        <p style="font-size:16px">
-          As a member of the AspenTech data science team, my focus was on implementing scalable and efficient probabilistic models for the analysis of large amounts of data.
-        </p>
-
-        <h2 style="font-size:20px"><b>Software Engineering Intern</b></h2>
-        <h2 style="font-size:14px">
-          Parietal, INRIA Saclay <br>
-          June 2015-September 2015 (3 months)
-        </h2>
-        <p style="font-size:16px">
-          As a software engineering intern on the scikit-learn team, my focus was on speeding up the gradient boosting implementation. My work ended up speeding up most tree-based estimators in addition to gradient boosting.
-          trees.
-        </p>
-
-        <h2 style="font-size:20px"><b>Junior Specialist</b></h2>
-        <h2 style="font-size:14px">
-          Nanopore Group, University of California, Santa Cruz <br>
-          July 2013-September 2014 (1 year 2 months)
-        </h2>
-        <p style="font-size:16px">
-          Worked as an on-hand computational specialist to the UCSC Nanopore Group. 
-          This involved me using a variety of machine learning methods (Random Forests, 
-          SVMs, HMMs predominately) to analyze large volumes of data and to automate 
-          previously hand-done analyses, increasing speed and accuracy. I maintained a 
-          MySQL database of experimental metadata, results, summaries, and other information 
-          in a normal-form compliant manner. Lastly, I was involved with writing several 
-          papers based on my findings, a grant which got accepted from the NIH, and in general 
-          explaining my computational work to others without my background.
-        </p>
-
-        <h2 style="font-size:20px"><b>Undergraduate Research Assistant</b></h2>
-        <h2 style="font-size:14px">
-          Nanopore Group, University of California, Santa Cruz <br>
-          January 2011-June 2013 (2 years 6 months)
-        </h2>
-        <p style="font-size:16px">
-          I performed both wetlab and computational research with the UCSC Nanopore Group. 
-          This involved me purifying DNA, running nanopore experiments, and analyzing them 
-          using simple machine learning methods. This resulted in a first author paper in 
-          which I used supervised learning methods to show that the MspA nanopore can distinguish 
-          between epigenetic modifications of the cytosine nucleotide, and described error rates 
-          for this classification.
-        </p>
       </div>
     </div></a>
 
