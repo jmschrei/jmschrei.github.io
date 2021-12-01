@@ -12,15 +12,40 @@
 <html lang="en">
 <head>
 
-  <link rel="stylesheet" type="text/css" href="cyborg.css">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="../../favicon.ico">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Jacob Schreiber</title>
+<!-- CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/carousel.css">
+
+<!-- Script -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="assets/js/jquery.backstretch.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+
+<!-- Favicon and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+<link rel="stylesheet" type="text/css" href="cyborg.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../../favicon.ico">
+
+<title>Jacob Schreiber</title>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86984318-3"></script>
@@ -35,7 +60,12 @@
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 <style>
 body {
-    font-family: 'Raleway';font-size: 22px;
+    font-family: 'Raleway';
+    font-size: 22px;
+}
+
+p {
+  text-align: left;
 }
 
 /* unvisited link */
@@ -82,13 +112,7 @@ b {
   background-color: #4CAF5000;
 }
 
-.button1{background-color:#B8204D;border:2px solid #B8204D}
-.button2{background-color:#50c473;border:2px solid #50c473}
-.button3{background-color:#A61A1D;border:2px solid #A61A1D}
-.button4{background-color:#3499CD;border:2px solid #3499CD}
-.button5{background-color:#40e0d0;border:2px solid #40e0d0}
-.button6{background-color:#ffb347;border:2px solid #ffb347}
-.button7{background-color:#FF007F;border:2px solid #FF007F}
+.button{background-color:hotpink;border:2px solid hotpink;}
 
 </style>
 </head>
@@ -132,18 +156,22 @@ b {
       <br><br>
       <p style="font-size:16px">I am a post-doc at Stanford University, studying regulatory genomics using large-scale machine learning methods with Anshul Kundaje. Previously, I was a graduate student at the University of Washington with Bill Noble. My research focus is to organize the massive amount of available genomics data into useful tools and meaningful discoveries. To this end, I have developed Ledidi, a method for editing biosequences to exhibit desired characteristics, Avocado, a deep tensor factorization approach for jointly modeling thousands of genome-wide regulatory experiments and imputing those that have not yet been performed, and a method that uses submodular optimization to guide future experimental efforts. These projects sometimes involve machine learning methods that are not mainstream, and so I routinely contribute to the Python open source community in the form of packages that implement general purpose versions of the algorithms that I apply to genomics. As such, I am the core developer of pomegranate, a package for flexible probabilistic modeling, apricot, a package for data summarization for machine learning, and in the past was a core developer for the scikit-learn project. Future projects include one day being able to go outside again.  </p>
 
-      <p style="font-size:12px">
-        Machine Learning | Submodular Optimization | Open Source Software | Big Data | Pitfalls | Computational Biology | Functional Genomics | Epigenomics
+      <p>Research Software:
+        <a style="text-decoration:none;color:white" href="https://github.com/kundajelab/yuzu"           class="projbutton button" target="_blank"> yuzu </a>
+        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/ledidi/"           class="projbutton button" target="_blank"> Ledidi </a>
+        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/avocado/"          class="projbutton button" target="_blank"> Avocado </a>
+        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/rambutan"          class="projbutton button" target="_blank"> Rambutan </a>
+        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/PyPore"            class="projbutton button" target="_blank"> PyPore </a>
       </p>
 
-      <p>
-        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/ledidi/"           class="projbutton button7" target="_blank"> Ledidi </a>
-        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/apricot/"          class="projbutton button6" target="_blank"> apricot </a>
-        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/pomegranate"       class="projbutton button1" target="_blank"> pomegranate </a>
-        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/avocado/"          class="projbutton button2" target="_blank"> Avocado </a>
-        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/rambutan"          class="projbutton button3" target="_blank"> Rambutan </a>
-        <a style="text-decoration:none;color:white" href="https://github.com/scikit-learn/scikit-learn"  class="projbutton button4" target="_blank"> scikit-learn </a>
-        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/PyPore"            class="projbutton button5" target="_blank"> PyPore </a>
+      <p>General Software:
+        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/apricot/"          class="projbutton button" target="_blank"> apricot </a>
+        <a style="text-decoration:none;color:white" href="https://github.com/jmschrei/pomegranate"       class="projbutton button" target="_blank"> pomegranate </a>
+        <a style="text-decoration:none;color:white" href="https://github.com/scikit-learn/scikit-learn"  class="projbutton button" target="_blank"> scikit-learn </a>
+      </p>
+
+      <p style="font-size:12px">
+        Machine Learning | Submodular Optimization | Open Source Software | Big Data | Pitfalls | Computational Biology | Functional Genomics | Epigenomics
       </p>
 
       <hr>
@@ -155,11 +183,131 @@ b {
         <iframe width="325" height="221" src="https://www.youtube.com/embed/tVXaTT3XbI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </p>
 
-    </div>
+      <hr>
+      <div class="page-header">
+        <div class="top-content" style="position:relative; top:-80px">
+          <div class="container-fluid">
+              <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner row w-100 mx-auto" role="listbox">
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Finally out in <a href="https://twitter.com/NatureRevGenet?ref_src=twsrc%5Etfw">@NatureRevGenet</a>: Navigating the pitfalls of applying machine learning in genomics! <a href="https://t.co/4b7kvfEwOz">https://t.co/4b7kvfEwOz</a> w/ <a href="https://twitter.com/seawhalen?ref_src=twsrc%5Etfw">@seawhalen</a> et al.<br><br>Our key point: you MUST evaluate your models in the same setting you want them to be used or they might not actually work in practice.</p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1465376155653922819?ref_src=twsrc%5Etfw">November 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">The first fruit of my post-doc is finally dropping: Yuzu! Yuzu speeds up in-silico saturated mutagenesis using principles of compressed sensing, over an order of magnitude on many common architectures for both protein and DNA inputs. 1/<br><br>🌠paper🌠: <a href="https://t.co/4xeeLUrCDo">https://t.co/4xeeLUrCDo</a></p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1458128987880787968?ref_src=twsrc%5Etfw">November 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                       <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">The more papers I read for a review article I&#39;m writing about ML pitfalls in genomics, the more my faith is shaken in the results from papers that apply machine learning to methylation arrays. A salty thread. 1/</p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1291161574393221123?ref_src=twsrc%5Etfw">August 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Excited and proud to receive the <a href="https://twitter.com/acm_bcb?ref_src=twsrc%5Etfw">@acm_bcb</a> 2020 best paper award for my work on making zero-shot imputations across species! Like most work, this would not have been possible without my co-authors. Here is a thread summarizing the paper: <a href="https://t.co/W0dB2QS1BM">https://t.co/W0dB2QS1BM</a></p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1309235845212205057?ref_src=twsrc%5Etfw">September 24, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">What&#39;s the point of comp bio models that can only make predictions for experiments that have already been performed (e.g. DeepSEA, Basset, Enformer, BPNet, etc)? In Rit&#39;s/my latest short review on ML in comp bio, we discuss! 1/8<br> <a href="https://t.co/ouq2Te3Hi6">https://t.co/ouq2Te3Hi6</a></p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1401967066375069710?ref_src=twsrc%5Etfw">June 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Ready for a new &quot;ML pitfalls in genomics w/ Jacob&quot;? When evaluating ML models across cell types/individuals, you MUST baseline against the avg activity or risk being fooled by seemingly good performance. Thrilled to finally see this quick read out! 1/ <a href="https://t.co/04t5evPtwi">https://t.co/04t5evPtwi</a></p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1329881200731668480?ref_src=twsrc%5Etfw">November 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">When doing grid search, why do you need to evaluate your final model on data other than the set you used to tune hyperparameters? Here&#39;s an example. Random data, labels, and predictions yields much better than random performance in a gridsearch-like evaluation. <a href="https://t.co/mT0L1aBnA4">pic.twitter.com/mT0L1aBnA4</a></p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1182467474211557376?ref_src=twsrc%5Etfw">October 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">A flaw I&#39;m seeing in a lot of papers is that they think that &quot;cross-validation&quot; gives you permission to perform architecture search on the test set. If the cross-validation involves the entire data set and you choose models based on best performance on it, you&#39;re making an error.</p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1395073588345020418?ref_src=twsrc%5Etfw">May 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Happy to share a new preprint introducing Ledidi, a method for designing edits to biological sequences! Unlike other (very cool) sequence design methods (like from <a href="https://twitter.com/seeliglab?ref_src=twsrc%5Etfw">@seeliglab</a>) our method perturbs a given sequence rather than designs entire sequences. <a href="https://t.co/dQCst546su">https://t.co/dQCst546su</a></p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1265355968583307264?ref_src=twsrc%5Etfw">May 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Time for another pitfall in genomics thread!<br><br>Normally, the output from a genomics experiment are reads mapped to a reference genome. More reads = stronger signal.<br><br>But the total number of reads can confound machine learning analyses and statistical tests. 1/</p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1440011474491953153?ref_src=twsrc%5Etfw">September 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">&quot;What does the fox say?&quot; is a perfect doctoral thesis.<br><br>Title is a clear question. The sections:<br>1. Begin with background<br>2. Motivates the question<br>3. Presents hypotheses<br>4. Describe a potential real-world situation<br>5. Conclude with difficulties in answering question</p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1215733291682189312?ref_src=twsrc%5Etfw">January 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">My <a href="https://twitter.com/uwcse?ref_src=twsrc%5Etfw">@uwcse</a> <a href="https://twitter.com/uwescience?ref_src=twsrc%5Etfw">@uwescience</a> thesis is now online (<a href="https://t.co/oOXWpHrT8V">https://t.co/oOXWpHrT8V</a>)! Check it out if you want to learn about my work with Avocado, imputing &gt;30k genomics experiments, and ordering future experiments. I also wrote a 2 page tl;dr overview: <a href="https://t.co/FCMraapfHP">https://t.co/FCMraapfHP</a></p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1274432404917071872?ref_src=twsrc%5Etfw">June 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">On Thursday (4:40am PST ugh) I&#39;m giving a talk at <a href="https://twitter.com/hashtag/ISMBEECCB2021?src=hash&amp;ref_src=twsrc%5Etfw">#ISMBEECCB2021</a> <a href="https://twitter.com/hashtag/MLCSB2021?src=hash&amp;ref_src=twsrc%5Etfw">#MLCSB2021</a> on five pitfalls to avoid when applying ML to genomics data! Although conceptually simple, they can be extremely difficult to identify in practice if you don&#39;t know what to look for. 1/</p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1420071761232547841?ref_src=twsrc%5Etfw">July 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">me: I trained a GAN using Avocado to generate fake imputations<br>advisor: okay, what questions can it help us answer?<br>me: ...<br>advisor: ...<br>me: ...<br>advisor: what questions ca-<br>me: it&#39;s named AvoGANo<br>advisor: ... <br>advisor: let&#39;s look into moving your graduation date up<br>(satire)</p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1198718821462204416?ref_src=twsrc%5Etfw">November 24, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Just saw that our work on using imputed functional experiments to prioritize the order that they should be performed is online! The motivation for this work came out of a visit to <a href="https://twitter.com/hudsonalpha?ref_src=twsrc%5Etfw">@hudsonalpha</a>, which generates a lot of data for <a href="https://twitter.com/ENCODE_NIH?ref_src=twsrc%5Etfw">@ENCODE_NIH</a>. <a href="https://t.co/eBSkpgNR6J">https://t.co/eBSkpgNR6J</a></p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1319345103366803456?ref_src=twsrc%5Etfw">October 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">New preliminary work from a productive session at the ENCODE Jamboree! I used the alignment method for single-cell omics data proposed in <a href="https://t.co/4BGS8N4NTZ">https://t.co/4BGS8N4NTZ</a> to align promoters based on their epigenomic context to 3D chairs.</p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1186671730468642816?ref_src=twsrc%5Etfw">October 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">In this week&#39;s &quot;ML pitfalls w/ Jacob,&quot; we&#39;re going to talk about data set creation! Problem data sets occur in every field, but I frequently see them in genomics because people build their own data sets from new experimental data. 1/</p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1292937218361708545?ref_src=twsrc%5Etfw">August 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">The lab cluster was down today so I used apricot and the magic of submodular optimization to create a highlight reel of my hundreds of photos of Crookshanks. <a href="https://t.co/y9I0dNuc6N">pic.twitter.com/y9I0dNuc6N</a></p>&mdash; Jacob Schreiber (@jmschreiber91) <a href="https://twitter.com/jmschreiber91/status/1423429344865656833?ref_src=twsrc%5Etfw">August 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                  <a class="carousel-control-prev" href="#twitter-carousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#twitter-carousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div></a>
 
     <a name="publications"><div class="jumbotron"><a></a>
       <div class="page-header">
-        <h2 style="font-size:26px"><b>Selected Publications</b></h2>
+        <h2 style="font-size:26px; text-align:left"><b>Selected Publications</b></h2>
+
+        <p style="font-size:14px">
+          Accelerating in-silico saturation mutagenesis using compressed sensing, <i>Submitted to RECOMB 2021</i>, 2021<br>
+          <span style="font-size:12px"><b>J. Schreiber*</b>, S. Nair, A. Balsubramani, and A. Kundaje</span><br>
+          <span style="font-size:12px">
+            [<a href="https://www.biorxiv.org/content/10.1101/2021.11.08.467498v1" target="_blank">paper</a>]
+            [<a href="https://twitter.com/jmschreiber91/status/1458128987880787968" target="_blank">tweetorial</a>]
+          </span>
+        </p>
+
+        <p style="font-size:14px">
+          Navigating the pitfalls of applying machine learning in genomics, <i>Current Opinion in Chemical Biology</i>, 2021<br>
+          <span style="font-size:12px">S. Whalen*, <b>J. Schreiber*</b> W.S. Noble, and K.S. Pollard  (*co-first author)</span><br>
+          <span style="font-size:12px">
+            [<a href="https://www.nature.com/articles/s41576-021-00434-9" target="_blank">paper</a>]
+            [<a href="https://twitter.com/jmschreiber91/status/1465376155653922819" target="_blank">tweetorial</a>]
+          </span>
+        </p>
+
+        <p style="font-size:14px">
+          Machine learning for profile prediction in genomics, <i>Current Opinion in Chemical Biology</i>, 2021<br>
+          <span style="font-size:12px"><b>J. Schreiber</b> and R. Singh</span> <br>
+          <span style="font-size:12px">
+            [<a href="https://www.sciencedirect.com/science/article/pii/S1367593121000600" target="_blank">paper</a>]
+            [<a href="https://twitter.com/jmschreiber91/status/1401967066375069710" target="_blank">tweetorial</a>]
+          </span>
+        </p>
 
         <p style="font-size:14px">
           Ledidi: Designing genomic edits that induce functional activity, <i>ICML Workshop on Computational Biology</i>, 2020<br>
@@ -167,6 +315,7 @@ b {
           <span style="font-size:12px">
             [<a href="https://www.biorxiv.org/content/10.1101/2020.05.21.109686v1" target="_blank">paper</a>]
             [<a href="https://icml-compbio.github.io/2020/posters/WCBICML2020_poster_23.pdf" target="_blank">poster</a>]
+            [<a href="https://twitter.com/jmschreiber91/status/1265355968583307264" target="_blank">tweetorial</a>]
           </span>
         </p>
 
@@ -176,6 +325,7 @@ b {
           <span style="font-size:12px"><b>J. Schreiber</b>, D. Hegde, and W.S. Noble</span> <br>
           <span style="font-size:12px">
             [<a href="https://dl.acm.org/doi/10.1145/3388440.3412412" target="_blank">paper</a>]
+            [<a href="https://twitter.com/jmschreiber91/status/1309235845212205057" target="_blank">tweetorial</a>]
           </span>
         </p>
 
@@ -184,6 +334,7 @@ b {
           <span style="font-size:12px"><b>J. Schreiber</b>, R. Singh, J. Bilmes, and W.S. Noble</span> <br>
           <span style="font-size:12px">
             [<a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02177-y" target="_blank">paper</a>]
+            [<a href="https://twitter.com/jmschreiber91/status/1329881200731668480" target="_blank">tweetorial</a>]
           </span>
         </p>
 
@@ -193,6 +344,7 @@ b {
           <span style="font-size:12px">
             [<a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa830/5910545" target="_blank">paper</a>]
             [<a href="https://www.github.com/jmschrei/kiwano" target="_blank">code</a>]
+            [<a href="https://twitter.com/jmschreiber91/status/1319345103366803456" target="_blank">tweetorial</a>]
           </span>
         </p>
 
@@ -201,6 +353,7 @@ b {
           <span style="font-size:12px"><b>J. Schreiber</b>, J. Bilmes, and W.S. Noble</span><br>
           <span style="font-size:12px">
             [<a href="https://jmlr.org/papers/v21/19-467.html" target="_blank">paper</a>]
+            [<a href="https://twitter.com/jmschreiber91/status/1306647433967886336" target="_blank">tweetorial</a>]
           </span>
         </p>
 
@@ -284,15 +437,19 @@ b {
       </div>
     </div></a>
 
+<!---
     <a name="talks"><div class="jumbotron"><a></a>
       <div class="page-header">
-        <h2 style="font-size:26px"><b>Talks</b></h2>
+        <h2 style="font-size:26px; text-align:left"><b>Talks</b></h2>
           <ul style="font-size:14px">
+            <p style="font-size:14px">
             <b>Avocado: Multi-scale deep tensor factorization learns a latent representation of the human epigenome</b> <br>
               &emsp;- Intelligent Systems for Molecular Bilogy (ISMB 2018) <br>
               &emsp;- Stanford Center for Genomics and Personalized Medicine (2018) <br>
+            </p>
 
             <br>
+            <p style="font-size:14px">
             <b>pomegranate: Probabilistic Modeling in Python</b> <br> 
               &emsp;- <i>ODSC East (2017, Invited)</i> <br>
               &emsp;- <i>Tesla Autopilot Maps (2017, Invited)</i> <br>
@@ -302,55 +459,124 @@ b {
               &emsp;- Moore-Sloan Data Science Summit (2016, 2017) <br>
               &emsp;- Seattle Data-Analytics and Machine Learning Meetup (2016) <br> 
               &emsp;- PyData Chicago (2016) <br>
+            </p>
 
             <br>
+            <p style="font-size:14px">
             <b>Rambutan: Nucleotide sequence and DNaseI sensitivity are predictive of 3D chromatin architecture</b> 
               &emsp;- scipy (2017) <br>
               &emsp;- <i>UCSF (2017, Invited)</i> <br>
               &emsp;- Stanford Center for Genomics and Personalized Medicine (SCGPM 2017) <br>
               &emsp;- Great Lakes Bioinformatics Conference (2017) <br>
+            </p>
 
             <br>
+            <p style="font-size:14px">
             <b>Large Scale HMMs for Nanopore Data Analysis</b><br>
              &emsp;- UW eScience Community Seminar (2016) <br>
              &emsp;- UW ACMS Research Seminar (2016) <br>
+            </p>
 
             <br>
+            <p style="font-size:14px">
             <b><a href="lectures/Parallel_Processing_in_Python.html" target="_blank">Parallel Processing in Python</a></b>: &emsp; UW eScience (2016)
-            
+            </p>
+
             <br>
+            <p style="font-size:14px">
             <b><a href="lectures/Accelerating_Scientific_Code.html" target="_blank">Accelerating Scientific Code</a></b>: &emsp;INRIA Parietal (2015)
-            
+            </p>
+
             <br>
+            <p style="font-size:14px">
             <b><a href="lectures/bioinformatics.html" target="_blank">What is a bioinformatician?</a></b>: &emsp; UCSC (2013-2016, Invited)
+            </p>
           </ul>
       </div>
     </div></a>
+--->
 
     <a name="crookshanks"><div class="jumbotron"><a></a>
       <div class="page-header">
-
-        <a href="crooks/crooks1.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks1.jpg"></a>
-        <a href="crooks/crooks2.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks2.jpg"></a>
-        <a href="crooks/crooks3.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks3.jpg"></a>
-        <a href="crooks/crooks4.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks4.jpg"></a>
-        <a href="crooks/crooks5.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks5.jpg"></a>
-        <a href="crooks/crooks6.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks6.jpg"></a>
-        <a href="crooks/crooks7.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks7.jpg"></a>
-        <a href="crooks/crooks8.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks8.jpg"></a>
-        <a href="crooks/crooks9.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks9.jpg"></a>
-        <a href="crooks/crooks10.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks10.jpg"></a>
-        <a href="crooks/crooks11.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks11.jpg"></a>
-        <a href="crooks/crooks12.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks12.jpg"></a>
-        <a href="crooks/crooks13.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks13.jpg"></a>
-        <a href="crooks/crooks14.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks14.jpg"></a>
-        <a href="crooks/crooks15.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks15.jpg"></a>
-        <a href="crooks/crooks16.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks16.jpg"></a>
-        <a href="crooks/crooks17.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks17.jpg"></a>
-        <a href="crooks/crooks18.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks18.jpg"></a>
-        <a href="crooks/crooks19.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks19.jpg"></a>
-        <a href="crooks/crooks20.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks20.jpg"></a>
-        <a href="crooks/crooks21.jpg" target="_blank"><img width="140" height="200" src="crooks/crooks21.jpg"></a>
+        <h2 style="font-size:26px; text-align:left;"><b>Crookshanks</b></h2>
+        <div class="top-content" style="position:relative; top:-80px">
+            <div class="container-fluid">
+                <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                         <a href="crooks/crooks1.jpg" target="_blank"><img src="crooks/crooks1.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks2.jpg" target="_blank"><img src="crooks/crooks2.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks3.jpg" target="_blank"><img src="crooks/crooks3.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks4.jpg" target="_blank"><img src="crooks/crooks4.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks5.jpg" target="_blank"><img src="crooks/crooks5.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks6.jpg" target="_blank"><img src="crooks/crooks6.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks7.jpg" target="_blank"><img src="crooks/crooks7.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks8.jpg" target="_blank"><img src="crooks/crooks8.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks9.jpg" target="_blank"><img src="crooks/crooks9.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                         <a href="crooks/crooks10.jpg" target="_blank"><img src="crooks/crooks10.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks11.jpg" target="_blank"><img src="crooks/crooks11.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks12.jpg" target="_blank"><img src="crooks/crooks12.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks13.jpg" target="_blank"><img src="crooks/crooks13.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks14.jpg" target="_blank"><img src="crooks/crooks14.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks15.jpg" target="_blank"><img src="crooks/crooks15.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks16.jpg" target="_blank"><img src="crooks/crooks16.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks17.jpg" target="_blank"><img src="crooks/crooks17.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks18.jpg" target="_blank"><img src="crooks/crooks18.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks19.jpg" target="_blank"><img src="crooks/crooks19.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks20.jpg" target="_blank"><img src="crooks/crooks20.jpg"></a>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <a href="crooks/crooks21.jpg" target="_blank"><img src="crooks/crooks21.jpg"></a>
+                      </div>
+                    <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
 
       </div>
     </div></a>
